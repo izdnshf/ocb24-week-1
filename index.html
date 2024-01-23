@@ -6,6 +6,12 @@
     <title>Love Letter</title>
     <style>
        
+        body, html {
+        height: 100%;
+        margin: 0;
+        background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+        }
+
         * {
            
             box-sizing: border-box;
@@ -17,12 +23,20 @@
 
         .container {
             background-color: burlywood; 
-            width: 400px; 
+            width: 600px; 
             height: 400px;
         }
 
-        #digital {
-            background-color: cadetblue;
+        .p {
+            color: beige;
+        }
+
+        #box {
+            background-color: palevioletred;
+            opacity: 0.80;
+            border-radius: 40px;
+            box-shadow: 3px 2px 2px 3px rgba(0, 0, 0, 0.25);
+
         }
 
         
@@ -32,16 +46,16 @@
 </head>
 <body>
     <div class="bg">
-        <div class="container" id="digital">
+        <div class="container" id="box">
             <h2 style="color: beige; ">Love Letter OCB24!</h2><br>
-            <p style="color: white; font-size: 16px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, sapiente. Accusamus sed maxime et magni hic adipisci, explicabo fuga cupiditate dignissimos architecto ipsum repellat quia nostrum. Sequi assumenda odio maxime!</p>
-            <ul style="margin-left: 20px; padding: 10px;">
+            <p class="p" style=font-size: 16px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, sapiente. Accusamus sed maxime et magni hic adipisci, explicabo fuga cupiditate dignissimos architecto ipsum repellat quia nostrum. Sequi assumenda odio maxime!</p>
+            <ul class="p" style="margin-left: 20px; padding: 10px;">
                 <li>Test 1</li>
                 <li>Test 2</li>
             </ul>
             <br>
-            <P style="color: white;">Yang benar,</P>
-            <P style="color: white; font-weight: bold;">Menantimu</P>
+            <P class="p">Yang benar,</P>
+            <P class="p"; font-weight: bold;">Menantimu</P>
             
     
         </div>
